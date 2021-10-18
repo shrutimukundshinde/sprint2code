@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="506.103335">
+    <testcase classname="Automation Testing Scripts" name="Verfiy Ascending Descending of Columns in Displayed Result Table in Region Page" time="52.065492">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin will click on Name Column in Displayed Result Table in Region Page.passed
+Then Names should be arranged in ascending order............................passed
+When Admin will click on Name Column in Displayed Result Table in Region Page.passed
+Then Names should be arranged in descending order...........................passed
+When Admin will click on Description Column in Displayed Result Table in Region Page.passed
+Then Description should be arranged in ascending order......................passed
+When Admin will click on Description Column in Displayed Result Table in Region Page.passed
+Then Description should be arranged in descending order.....................passed
+When Admin will click on Slug Column in Displayed Result Table in Region Page.passed
+Then Slug should be arranged in ascending order.............................passed
+When Admin will click on Slug Column in Displayed Result Table in Region Page.passed
+Then Slug should be arranged in descending order............................passed
+When Admin will click on Count Column in Displayed Result Table in Region Page.passed
+Then Count should be arranged in ascending order............................passed
+When Admin will click on Count Column in Displayed Result Table in Region Page.passed
+Then Count should be arranged in descending order...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify Add New Region" time="33.068139">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.Signupdefination.admin_will_see_the_new_added_region_name_in_displayed_result_in_Region_page(Signupdefination.java:204)&#13;&#10;&#9;at ✽.Admin will see the new added region name&quot;Codingface@1234&quot; in displayed result in Region page.(file:src/test/java/Feature/abc.feature:42)&#13;&#10;"><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin enters Name "Codingface@1234",Slug "Test1" and Description "This is Test1" and selects parent region.passed
+And clicks on add new Region button.........................................passed
+And Admin enters Name "Codingface@1234" in search region text in displayed result in Region page.passed
+And clicks on search button on displayed result in Region page..............passed
+Then Admin will see the new added region name"Codingface@1234" in displayed result in Region page..failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.Signupdefination.admin_will_see_the_new_added_region_name_in_displayed_result_in_Region_page(Signupdefination.java:204)
+	at ✽.Admin will see the new added region name"Codingface@1234" in displayed result in Region page.(file:src/test/java/Feature/abc.feature:42)
+]]></failure>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify Add New Region 2" time="33.176764">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin enters Name "Mumbai",Slug "Mumbai" and Description "This is Created Region" and selects parent region.passed
+And clicks on add new Region button.........................................passed
+And Admin enters Name "Mumbai" in search region text in displayed result in Region page.passed
+And clicks on search button on displayed result in Region page..............passed
+Then Admin will see the new added region name"Mumbai" in displayed result in Region page..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify the edit option in particular displayed result record." time="45.348109">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin clicks on edit option of a particular record in displayed result..passed
+Then Admin will navigate to Edit Region Page................................passed
+When Admin enters the modified Name "Pune",Slug "Updated slug123" and Description "This is Updated Region" and selects parent region.passed
+And clicks on add Update button of edit page................................passed
+Then Admin will see validation message of updated item "Item updated."......passed
+When clicks on Back to Categories link in edit page.........................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+When Admin clicks on edit option of a particular record in displayed result..passed
+Then Admin will navigate to Edit Region Page................................passed
+When Admin will click on delete button......................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify the edit option in particular displayed result record. 2" time="37.2067">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.Signupdefination.admin_enters_the_modified_Name_Slug_and_Description_and_selects_parent_region(Signupdefination.java:269)&#13;&#10;&#9;at ✽.Admin enters the modified Name &quot;Mumbai@123%&quot;,Slug &quot;This is mumbai123%$&quot; and Description &quot;This is Mumbai&quot; and selects parent region(file:src/test/java/Feature/abc.feature:54)&#13;&#10;"><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin clicks on edit option of a particular record in displayed result..passed
+Then Admin will navigate to Edit Region Page................................passed
+When Admin enters the modified Name "Mumbai@123%",Slug "This is mumbai123%$" and Description "This is Mumbai" and selects parent region.failed
+And clicks on add Update button of edit page................................skipped
+Then Admin will see validation message of updated item "Item updated."......skipped
+When clicks on Back to Categories link in edit page.........................skipped
+Then Admin will navigate to Region page in Real Estate......................skipped
+When Admin clicks on edit option of a particular record in displayed result..skipped
+Then Admin will navigate to Edit Region Page................................skipped
+When Admin will click on delete button......................................skipped
+Then Admin will navigate to Region page in Real Estate......................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.Signupdefination.admin_enters_the_modified_Name_Slug_and_Description_and_selects_parent_region(Signupdefination.java:269)
+	at ✽.Admin enters the modified Name "Mumbai@123%",Slug "This is mumbai123%$" and Description "This is Mumbai" and selects parent region(file:src/test/java/Feature/abc.feature:54)
+]]></failure>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify bulk action in region page" time="41.277209">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin clicks on one or more checkboxes in displayed result on Region Page.passed
+And selects delete option in dropdown from bulk actions.....................passed
+And clicks on Apply button..................................................passed
+Then Admin will see the validation message for the deleted fields on Region Page "Items deleted.".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify the Screen Options and Pagination" time="55.627282">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin clicks on Screen Options.........................................passed
+And deSelects all checkboxes in Screen option...............................passed
+And Admin clicks on all checkboxes..........................................passed
+Then that fields are shown in title page of displayed result................passed
+When Admin enters no of items per page no "2"...............................passed
+And clicks on Apply Button..................................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify delete and view option in particular displayed result record." time="41.48301">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.Signupdefination.admin_will_see_validation_message_of_deleted_message(Signupdefination.java:623)&#13;&#10;&#9;at ✽.Admin will see validation message of deleted message &quot;Items deleted.&quot;(file:src/test/java/Feature/abc.feature:105)&#13;&#10;"><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin will click on view option........................................passed
+Then Admin will navigate to Real Estate find your home page.................passed
+When Admin navigates back Regions Page in Real Estate.......................passed
+Then Admin is on Regions Page in Real Estate................................passed
+And Admin clicks on Delete option...........................................passed
+And Admin accepts the alert.................................................passed
+Then Admin will see validation message of deleted message "Items deleted."..failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.Signupdefination.admin_will_see_validation_message_of_deleted_message(Signupdefination.java:623)
+	at ✽.Admin will see validation message of deleted message "Items deleted."(file:src/test/java/Feature/abc.feature:105)
+]]></failure>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verfiy the Property Settings" time="49.298024">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin will click on Property Settings..................................passed
+Then Admin will navigate to Property Settings...............................passed
+When click on Add Row Button................................................passed
+And enters Property URL "https://www.w3schools.com/jsref/jsref_charat.asp"..passed
+And clicks on Update Button.................................................passed
+Then Admin will see validation Message "Options Updated"....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify quik edit option on Regions Page" time="45.538164">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin clicks on quick edit option of a particular record in displayed result..passed
+And Admin enters the modified Name "Description TestingU"and Slug "description-testingUPDAted_three".passed
+And Admin clicks on Update button of quick edit.............................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+When Admin will click on profile icon.......................................passed
+Then Admin will navigate to Your Profile Page...............................passed
+When Admin navigates back Regions Page in Real Estate.......................passed
+And Admin will click on profile icon........................................passed
+And click on Logout Button..................................................passed
+Then Admin is on the login page of Real Estate..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing Scripts" name="Verify quik edit option on Regions Page 2" time="72.014442">
+        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.Signupdefination.admin_enters_the_modified_Name_and_Slug(Signupdefination.java:933)&#13;&#10;&#9;at ✽.Admin enters the modified Name &quot;Coding@123&quot;and Slug &quot;This is slug2&quot;(file:src/test/java/Feature/abc.feature:129)&#13;&#10;"><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When Admin enters Username "mohankrishna176@gmail.com" and Password "Secret@123&&".passed
+And Click on login button...................................................passed
+Given Admin is on Dashboard page............................................passed
+When Admin clicks on properties.............................................passed
+Then Admin will navigate to Region page in Real Estate......................passed
+Given Admin is on Regions Page in Real Estate...............................passed
+When Admin clicks on quick edit option of a particular record in displayed result..passed
+And Admin enters the modified Name "Coding@123"and Slug "This is slug2".....failed
+And Admin clicks on Update button of quick edit.............................skipped
+Then Admin will navigate to Region page in Real Estate......................skipped
+When Admin will click on profile icon.......................................skipped
+Then Admin will navigate to Your Profile Page...............................skipped
+When Admin navigates back Regions Page in Real Estate.......................skipped
+And Admin will click on profile icon........................................skipped
+And click on Logout Button..................................................skipped
+Then Admin is on the login page of Real Estate..............................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.Signupdefination.admin_enters_the_modified_Name_and_Slug(Signupdefination.java:933)
+	at ✽.Admin enters the modified Name "Coding@123"and Slug "This is slug2"(file:src/test/java/Feature/abc.feature:129)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,2814 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37006500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155698800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11650745200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30099300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7193752800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1036314500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:42:15.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13508551700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verfiy Ascending Descending of Columns in Displayed Result Table in Region Page",
+        "description": "",
+        "id": "automation-testing-scripts;verfiy-ascending-descending-of-columns-in-displayed-result-table-in-region-page",
+        "after": [
+          {
+            "result": {
+              "duration": 176329400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29168700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2249061900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin will click on Name Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Name_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26472200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Names should be arranged in ascending order",
+            "match": {
+              "location": "Signupdefination.names_should_be_arranged_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2248821500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin will click on Name Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Name_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21854000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Names should be arranged in descending order",
+            "match": {
+              "location": "Signupdefination.names_should_be_arranged_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2194035300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Admin will click on Description Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Description_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34192400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Description should be arranged in ascending order",
+            "match": {
+              "location": "Signupdefination.description_should_be_arranged_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2221375800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Admin will click on Description Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Description_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34292800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Description should be arranged in descending order",
+            "match": {
+              "location": "Signupdefination.description_should_be_arranged_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2251609400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Admin will click on Slug Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Slug_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33526000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Slug should be arranged in ascending order",
+            "match": {
+              "location": "Signupdefination.slug_should_be_arranged_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2232807200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Admin will click on Slug Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Slug_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25893100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Slug should be arranged in descending order",
+            "match": {
+              "location": "Signupdefination.slug_should_be_arranged_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2260599800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Admin will click on Count Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Count_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65040300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Count should be arranged in ascending order",
+            "match": {
+              "location": "Signupdefination.count_should_be_arranged_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2300627500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Admin will click on Count Column in Displayed Result Table in Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Count_Column_in_Displayed_Result_Table_in_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39435000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Count should be arranged in descending order",
+            "match": {
+              "location": "Signupdefination.count_should_be_arranged_in_descending_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_one"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36558400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135555100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11184920000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44381000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6182683900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1036129500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:43:07.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12682970800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Verify Add New Region",
+        "description": "",
+        "id": "automation-testing-scripts;verify-add-new-region;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149096600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32087800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333291100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Admin enters Name \"Codingface@1234\",Slug \"Test1\" and Description \"This is Test1\" and selects parent region",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Codingface@1234\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Test1\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"This is Test1\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Name_Slug_and_Description_and_selects_parent_region(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73485200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clicks on add new Region button",
+            "match": {
+              "location": "Signupdefination.clicks_on_add_new_Region_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114300700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Admin enters Name \"Codingface@1234\" in search region text in displayed result in Region page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Codingface@1234\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Name_in_search_region_text_in_displayed_result_in_Region_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1033424100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "clicks on search button on displayed result in Region page.",
+            "match": {
+              "location": "Signupdefination.clicks_on_search_button_on_displayed_result_in_Region_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.Signupdefination.admin_will_see_the_new_added_region_name_in_displayed_result_in_Region_page(Signupdefination.java:204)\r\n\tat ✽.Admin will see the new added region name\"Codingface@1234\" in displayed result in Region page.(file:src/test/java/Feature/abc.feature:42)\r\n",
+              "duration": 28604600,
+              "status": "failed"
+            },
+            "line": 42,
+            "name": "Admin will see the new added region name\"Codingface@1234\" in displayed result in Region page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Codingface@1234\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_the_new_added_region_name_in_displayed_result_in_Region_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_two"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 39909900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169616500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11197596500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49498000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6306455800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1037084400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:43:40.902Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12545746900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Verify Add New Region",
+        "description": "",
+        "id": "automation-testing-scripts;verify-add-new-region;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 190098300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31073200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361459400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Admin enters Name \"Mumbai\",Slug \"Mumbai\" and Description \"This is Created Region\" and selects parent region",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"This is Created Region\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Name_Slug_and_Description_and_selects_parent_region(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60374500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clicks on add new Region button",
+            "match": {
+              "location": "Signupdefination.clicks_on_add_new_Region_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73571900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Admin enters Name \"Mumbai\" in search region text in displayed result in Region page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Name_in_search_region_text_in_displayed_result_in_Region_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088874900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "clicks on search button on displayed result in Region page.",
+            "match": {
+              "location": "Signupdefination.clicks_on_search_button_on_displayed_result_in_Region_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24449300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Admin will see the new added region name\"Mumbai\" in displayed result in Region page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_the_new_added_region_name_in_displayed_result_in_Region_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_two"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31088400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148799700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11964257700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51262100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6375463800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044229800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:44:14.080Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12508060500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Verify the edit option in particular displayed result record.",
+        "description": "",
+        "id": "automation-testing-scripts;verify-the-edit-option-in-particular-displayed-result-record.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 213553400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33175400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1477651200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Admin clicks on edit option of a particular record in displayed result.",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_edit_option_of_a_particular_record_in_displayed_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24898100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Admin will navigate to Edit Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Edit_Region_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419005900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Admin enters the modified Name \"Pune\",Slug \"Updated slug123\" and Description \"This is Updated Region\" and selects parent region",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pune\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Updated slug123\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"This is Updated Region\"",
+                  "offset": 77
+                }
+              ],
+              "location": "Signupdefination.admin_enters_the_modified_Name_Slug_and_Description_and_selects_parent_region(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4956559500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "clicks on add Update button of edit page",
+            "match": {
+              "location": "Signupdefination.clicks_on_add_Update_button_of_edit_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21239900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Admin will see validation message of updated item \"Item updated.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item updated.\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_validation_message_of_updated_item(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1105281000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "clicks on Back to Categories link in edit page",
+            "match": {
+              "location": "Signupdefination.clicks_on_Back_to_Categories_link_in_edit_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1021393000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1122747800,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Admin clicks on edit option of a particular record in displayed result.",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_edit_option_of_a_particular_record_in_displayed_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31133600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Admin will navigate to Edit Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Edit_Region_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45638000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Admin will click on delete button",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2751689700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_three"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 34232300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123157400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13070733800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51198800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6491246000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1052096500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:44:59.430Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14312148700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Verify the edit option in particular displayed result record.",
+        "description": "",
+        "id": "automation-testing-scripts;verify-the-edit-option-in-particular-displayed-result-record.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 158940300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30880900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1421547600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Admin clicks on edit option of a particular record in displayed result.",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_edit_option_of_a_particular_record_in_displayed_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24775600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Admin will navigate to Edit Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Edit_Region_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.Signupdefination.admin_enters_the_modified_Name_Slug_and_Description_and_selects_parent_region(Signupdefination.java:269)\r\n\tat ✽.Admin enters the modified Name \"Mumbai@123%\",Slug \"This is mumbai123%$\" and Description \"This is Mumbai\" and selects parent region(file:src/test/java/Feature/abc.feature:54)\r\n",
+              "duration": 434926600,
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "Admin enters the modified Name \"Mumbai@123%\",Slug \"This is mumbai123%$\" and Description \"This is Mumbai\" and selects parent region",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mumbai@123%\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"This is mumbai123%$\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"This is Mumbai\"",
+                  "offset": 88
+                }
+              ],
+              "location": "Signupdefination.admin_enters_the_modified_Name_Slug_and_Description_and_selects_parent_region(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12300,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "clicks on add Update button of edit page",
+            "match": {
+              "location": "Signupdefination.clicks_on_add_Update_button_of_edit_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "Admin will see validation message of updated item \"Item updated.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item updated.\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_validation_message_of_updated_item(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "clicks on Back to Categories link in edit page",
+            "match": {
+              "location": "Signupdefination.clicks_on_Back_to_Categories_link_in_edit_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "Admin clicks on edit option of a particular record in displayed result.",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_edit_option_of_a_particular_record_in_displayed_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "Admin will navigate to Edit Region Page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Edit_Region_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2100,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Admin will click on delete button",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_three"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30199900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142278300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11775522100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50196000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400137400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1040326900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:45:36.637Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12712341300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "Verify bulk action in region page",
+        "description": "",
+        "id": "automation-testing-scripts;verify-bulk-action-in-region-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 228321100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30210900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3265247500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Admin clicks on one or more checkboxes in displayed result on Region Page",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_one_or_more_checkboxes_in_displayed_result_on_Region_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1089536200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "selects delete option in dropdown from bulk actions",
+            "match": {
+              "location": "Signupdefination.selects_delete_option_in_dropdown_from_bulk_actions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3461032400,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "clicks on Apply button",
+            "match": {
+              "location": "Signupdefination.clicks_on_Apply_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1051360100,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Admin will see the validation message for the deleted fields on Region Page \"Items deleted.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Items deleted.\"",
+                  "offset": 76
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_the_validation_message_for_the_deleted_fields_on_Region_Page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_four"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 47138200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141444100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12010508500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49442600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6373462500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044111500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:46:17.916Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12725258900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 94,
+        "name": "Verify the Screen Options and Pagination",
+        "description": "",
+        "id": "automation-testing-scripts;verify-the-screen-options-and-pagination;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 187477100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31952600,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1061793000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Admin clicks on Screen Options",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_Screen_Options()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6211767000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "deSelects all checkboxes in Screen option",
+            "match": {
+              "location": "Signupdefination.deselects_all_checkboxes_in_Screen_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5226660500,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Admin clicks on all checkboxes",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_all_checkboxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1074672800,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "that fields are shown in title page of displayed result",
+            "match": {
+              "location": "Signupdefination.that_fields_are_shown_in_title_page_of_displayed_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4116334500,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Admin enters no of items per page no \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Signupdefination.admin_enters_no_of_items_per_page_no(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4277751100,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "clicks on Apply Button",
+            "match": {
+              "location": "Signupdefination.clicks_on_Apply_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1046901600,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_five"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36890200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143280300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11605364600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48870100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6223068700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1040905600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:47:13.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11432359900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 109,
+        "name": "Verify delete and view option in particular displayed result record.",
+        "description": "",
+        "id": "automation-testing-scripts;verify-delete-and-view-option-in-particular-displayed-result-record.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 259342000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25234600,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1686401200,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Admin will click on view option",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_view_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7483696800,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Admin will navigate to Real Estate find your home page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Real_Estate_find_your_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1177965600,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Admin navigates back Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_navigates_back_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28716500,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217230000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Admin clicks on Delete option",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_Delete_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10879600,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Admin accepts the alert",
+            "match": {
+              "location": "Signupdefination.admin_accepts_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.Signupdefination.admin_will_see_validation_message_of_deleted_message(Signupdefination.java:623)\r\n\tat ✽.Admin will see validation message of deleted message \"Items deleted.\"(file:src/test/java/Feature/abc.feature:105)\r\n",
+              "duration": 61994400,
+              "status": "failed"
+            },
+            "line": 105,
+            "name": "Admin will see validation message of deleted message \"Items deleted.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Items deleted.\"",
+                  "offset": 53
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_validation_message_of_deleted_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_six"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31422200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130871100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11588113400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36971600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6118524400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044561400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:47:55.032Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13182468500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 123,
+        "name": "Verfiy the Property Settings",
+        "description": "",
+        "id": "automation-testing-scripts;verfiy-the-property-settings;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 202612000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28951100,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4121242100,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "Admin will click on Property Settings",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_Property_Settings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49578100,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "Admin will navigate to Property Settings",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Property_Settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3104577900,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "click on Add Row Button",
+            "match": {
+              "location": "Signupdefination.click_on_Add_Row_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6254506400,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "enters Property URL \"https://www.w3schools.com/jsref/jsref_charat.asp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3schools.com/jsref/jsref_charat.asp\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Signupdefination.enters_Property_URL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35039100,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "clicks on Update Button",
+            "match": {
+              "location": "Signupdefination.clicks_on_Update_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3367747900,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "Admin will see validation Message \"Options Updated\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Options Updated\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Signupdefination.admin_will_see_validation_Message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_seven"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 49542100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150277700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12630481200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42907700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6050536800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1043738900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:48:44.334Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12193740400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 141,
+        "name": "Verify quik edit option on Regions Page",
+        "description": "",
+        "id": "automation-testing-scripts;verify-quik-edit-option-on-regions-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 183182800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28395900,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234176500,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Admin clicks on quick edit option of a particular record in displayed result.",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_quick_edit_option_of_a_particular_record_in_displayed_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290024900,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "Admin enters the modified Name \"Description TestingU\"and Slug \"description-testingUPDAted_three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Description TestingU\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"description-testingUPDAted_three\"",
+                  "offset": 62
+                }
+              ],
+              "location": "Signupdefination.admin_enters_the_modified_Name_and_Slug(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3058717900,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "Admin clicks on Update button of quick edit",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_Update_button_of_quick_edit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1035085600,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2566585800,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "Admin will click on profile icon",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_profile_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30394300,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "Admin will navigate to Your Profile Page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Your_Profile_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234223300,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Admin navigates back Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_navigates_back_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1099847200,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "Admin will click on profile icon",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_profile_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3580604800,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "click on Logout Button",
+            "match": {
+              "location": "Signupdefination.click_on_Logout_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34620400,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_eight"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 34028500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136485400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters Username \"mohankrishna176@gmail.com\" and Password \"Secret@123\u0026\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Secret@123\u0026\u0026\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Signupdefination.admin_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50772263200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Signupdefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49781500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin is on Dashboard page",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6634039400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on properties",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1037607600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T07:49:29.876Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12708571000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.initialization()"
+            }
+          }
+        ],
+        "line": 142,
+        "name": "Verify quik edit option on Regions Page",
+        "description": "",
+        "id": "automation-testing-scripts;verify-quik-edit-option-on-regions-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 156758000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16865500,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Admin is on Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218380900,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Admin clicks on quick edit option of a particular record in displayed result.",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_quick_edit_option_of_a_particular_record_in_displayed_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.Signupdefination.admin_enters_the_modified_Name_and_Slug(Signupdefination.java:933)\r\n\tat ✽.Admin enters the modified Name \"Coding@123\"and Slug \"This is slug2\"(file:src/test/java/Feature/abc.feature:129)\r\n",
+              "duration": 248519000,
+              "status": "failed"
+            },
+            "line": 129,
+            "name": "Admin enters the modified Name \"Coding@123\"and Slug \"This is slug2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coding@123\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"This is slug2\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Signupdefination.admin_enters_the_modified_Name_and_Slug(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "Admin clicks on Update button of quick edit",
+            "match": {
+              "location": "Signupdefination.admin_clicks_on_Update_button_of_quick_edit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 131,
+            "name": "Admin will navigate to Region page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Region_page_in_Real_Estate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 132,
+            "name": "Admin will click on profile icon",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_profile_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 133,
+            "name": "Admin will navigate to Your Profile Page",
+            "match": {
+              "location": "Signupdefination.admin_will_navigate_to_Your_Profile_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000,
+              "status": "skipped"
+            },
+            "line": 134,
+            "name": "Admin navigates back Regions Page in Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_navigates_back_Regions_Page_in_Real_Estate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 900,
+              "status": "skipped"
+            },
+            "line": 135,
+            "name": "Admin will click on profile icon",
+            "match": {
+              "location": "Signupdefination.admin_will_click_on_profile_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 900,
+              "status": "skipped"
+            },
+            "line": 136,
+            "name": "click on Logout Button",
+            "match": {
+              "location": "Signupdefination.click_on_Logout_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000,
+              "status": "skipped"
+            },
+            "line": 137,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "Signupdefination.admin_is_on_the_login_page_of_Real_Estate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_eight"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Testing Scripts",
+    "description": "",
+    "id": "automation-testing-scripts",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/abc.feature",
+    "tags": []
+  }
+]
